@@ -1,0 +1,20 @@
+{
+  "name": "cognigenesis-v6-plugins",
+  "interface": {
+    "displayName": "Cognigenesis V6"
+  },
+  "plugins": [
+    {
+      "name": "cognigenesis-v6",
+      "source": {
+        "source": "local",
+        "path": "./plugins/cognigenesis-v6"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
